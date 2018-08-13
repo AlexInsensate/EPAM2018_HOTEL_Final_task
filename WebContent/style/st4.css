@@ -1,0 +1,179 @@
+/***************************************************************
+CSS for all JSP pages
+***************************************************************/
+body {
+	margin: 0;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+td {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+button{
+	 font-weight: 17;
+	 width:200px;
+	border: 1px solid black;
+}
+
+#header, #footer, .content {
+	border: 0px solid;	
+}
+
+/***************************************************************
+Style of the main table
+***************************************************************/
+#main-container {
+	width: 100%;
+	height: 100%;
+}
+
+/***************************************************************
+Header style (TD tag in the first top row)
+***************************************************************/
+#header {
+	background: #20d1e5;
+	padding: 20px;
+	
+}
+
+/***************************************************************
+Style for the left located head menu (DIV tag at left)
+***************************************************************/
+#leftHeader {
+	background: #20d1e5;
+	float: right;
+	margin-left: 10px;
+	padding: 2px;
+	border-color:  black;
+	border: 5px;
+	
+}
+
+/***************************************************************
+Style for the right located head menu (DIV tag at right)
+***************************************************************/
+#rightHeader {
+	background: #20d1e5;
+	float: left;
+	text-align: left;
+	margin-right: 10px;
+	padding: 2px;
+	border: 2px;
+	border-color: solid black;
+}
+
+/***************************************************************
+Content styles (TD tag in the main middle row)
+***************************************************************/
+.content {
+	height: 100%;
+	background: #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+
+/***************************************************************
+Footer style (TD tag in the last bottom row)
+***************************************************************/
+#footer {
+	text-align: center;
+	background: #20d1e5;
+	padding: 15px;
+}
+
+/***************************************************************
+Style for the ERROR message
+***************************************************************/
+.error {
+	font-size: large;
+	color: #80004020400;
+}
+
+/***************************************************************
+Miscellaneous
+***************************************************************/
+.center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.noborder {
+	border: 2px solid #000040;	
+}
+
+/***************************************************************
+Login form (login.jsp)
+***************************************************************/
+#login_form > fieldset {
+	display: inline;
+}
+
+#login_form > input[type=submit] {
+	margin-top: 5px;
+}
+
+#select_form > fieldset {
+	display: inline;
+}
+
+#select_form > input[type=submit] {
+	margin-top: 5px;
+}
+
+/***************************************************************
+Settings form (settings.jsp)
+***************************************************************/
+#settings_form > div > p {
+	font-size: 17px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+#settings_form > input[type=submit] {
+	margin-top: 10px;
+}
+
+/***************************************************************
+List menu table (list_menu.jsp)
+***************************************************************/
+#list_menu_table {
+	margin-top: 5px;
+}
+
+#list_menu_table thead {
+	text-align: center;
+}
+
+#list_menu_table td:last-child {
+	text-align: center;
+}
+
+/***************************************************************
+List order table (list_order.jsp)
+***************************************************************/
+#list_order_table > thead > tr {
+	text-align: center;
+}
+
+#list_order_table td + td + td {
+	text-align: center;
+}
+
+#list_order_table > tbody td + td + td + td {
+	text-align: left;
+}
+
+/***************************************************************
+Make order form (list_menu.jsp)
+***************************************************************/
+#make_order {
+	margin-top: 5px;
+}
